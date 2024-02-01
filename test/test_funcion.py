@@ -1,5 +1,9 @@
+import pytest
 
+@pytest.mark.ScoreHitPingsTotal
 '''
+form src. 
+
 
 TotalScoreHittingPinsTest() {
 
