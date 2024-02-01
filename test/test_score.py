@@ -1,19 +1,15 @@
 import pytest
 
 @pytest.mark.ScoreHitPingsTotal
-'''
-form src. 
-
-
-TotalScoreHittingPinsTest() {
-
-		# Hitting pins total = 60
+	def test_ScoreHitPingsTotal():
 		pins = "12345123451234512345";
 		int total = 60;
 		scoreCard = ScoreCard(pins);
 		scoreCard.calculateScore();
 		assertEquals(total, scoreCard.getTotalScore());
-	}
+'''
+form src. 
+
 
 TotalScoreHittingPinsFailTest() {
 
