@@ -6,6 +6,5 @@ class ScoreCard:
         self.frame = 1
         self.score = 0
     
-    def ScoreHitPingsTotal(self):
-        if 
-
+    def score_frame(self, roll):
+        frame_pin = self.pins[roll]
