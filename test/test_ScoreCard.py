@@ -1,7 +1,7 @@
 import pytest
 
-@pytest.mark.ScoreHitPingsTotal
-	def test_ScoreHitPingsTotal():
+@pytest.mark.score_frame
+	def test_score_frame():
 		pins = "12345123451234512345";
 		int total = 60;
 		scoreCard = ScoreCard(pins);
